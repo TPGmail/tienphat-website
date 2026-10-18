@@ -77,3 +77,7 @@
 .contact-fabs{position:fixed;right:20px;bottom:calc(20px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:10px;z-index:20}
 .contact-fabs .floating-call{position:static}
 .floating-zalo{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;font-size:13px;font-weight:700;box-shadow:0 8px 24px rgba(0,0,0,.3)}
+
+/* Discoverable category links: preserve existing product carousel layouts */
+.collection-link{display:inline-block;margin-top:12px;color:#fff;font-weight:700;font-size:13px;text-decoration:underline;text-underline-offset:5px;position:relative;z-index:3}
+.collection-link:hover{color:#ffd1b8}
