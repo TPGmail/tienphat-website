@@ -68,3 +68,12 @@
 
 /* Approved logo; preserve the existing logo footprint. */
 .brand-mark{border:0;border-radius:0;letter-spacing:normal}.brand-mark img{width:100%;height:100%;object-fit:contain}
+
+/* Separate telephone and Zalo actions. */
+.contact-actions{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0 20px}
+.contact-actions .btn{min-height:48px;padding:12px 20px}
+.contact-zalo,.floating-zalo{background:#0068ff;color:#fff}
+.contact-zalo:hover,.contact-zalo:focus-visible,.floating-zalo:hover,.floating-zalo:focus-visible{background:#0054ce}
+.contact-fabs{position:fixed;right:20px;bottom:calc(20px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:10px;z-index:20}
+.contact-fabs .floating-call{position:static}
+.floating-zalo{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;font-size:13px;font-weight:700;box-shadow:0 8px 24px rgba(0,0,0,.3)}
