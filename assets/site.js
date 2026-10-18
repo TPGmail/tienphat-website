@@ -70,7 +70,7 @@ document.querySelectorAll('.product-card').forEach((card,cardIndex)=>{
     current=(index+slides.length)%slides.length;
     slides.forEach((slide,i)=>slide.classList.toggle('active',i===current));
     count.textContent=String(current+1).padStart(2,'0')+' / '+String(slides.length).padStart(2,'0');
-    code.textContent=slides[current].alt.replace(/^(Standard PU leather|PU Nubuck|Genuine leather)\s+/,'');
+    code.textContent=slides[current].alt.replace(/^.*? mã /,'').replace(/ – Tiến Phát$/,'');
   };
   const restart=()=>{
     clearInterval(timer);
