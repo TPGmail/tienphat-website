@@ -81,3 +81,11 @@
 /* Discoverable category links: preserve existing product carousel layouts */
 .collection-link{display:inline-block;margin-top:12px;color:#fff;font-weight:700;font-size:13px;text-decoration:underline;text-underline-offset:5px;position:relative;z-index:3}
 .collection-link:hover{color:#ffd1b8}
+
+/* Shared contact actions on the home page and material collections. */
+.catalog-links .contact-call{background:var(--orange);border-color:var(--orange);color:#fff}
+.catalog-links .contact-zalo{background:#0068ff;border-color:#0068ff;color:#fff}
+.catalog-links .contact-zalo:hover,.catalog-links .contact-zalo:focus-visible{background:#0054ce;border-color:#0054ce}
+.contact-fabs a:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.catalog-footer{padding-bottom:150px}
+@media(max-width:620px){.contact-fabs{right:16px}}
