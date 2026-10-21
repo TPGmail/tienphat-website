@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.tienphat.org/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://www.tienphat.org/da-pu-pho-thong.html</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://www.tienphat.org/da-pu-nubuck.html</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://www.tienphat.org/da-that.html</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://www.tienphat.org/</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://www.tienphat.org/vi/</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://www.tienphat.org/zh/</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://www.tienphat.org/da-pu-pho-thong.html</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://www.tienphat.org/vi/da-pu-pho-thong.html</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://www.tienphat.org/zh/da-pu-pho-thong.html</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://www.tienphat.org/da-pu-nubuck.html</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://www.tienphat.org/vi/da-pu-nubuck.html</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://www.tienphat.org/zh/da-pu-nubuck.html</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://www.tienphat.org/da-that.html</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://www.tienphat.org/vi/da-that.html</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://www.tienphat.org/zh/da-that.html</loc><lastmod>2026-10-21</lastmod></url>
 </urlset>
