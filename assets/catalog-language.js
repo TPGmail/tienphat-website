@@ -35,6 +35,7 @@ const pageTitle=seoText?seoText.title:title;document.title=pageTitle;
 meta.forEach(([el,original])=>el.content=seoText?(el.getAttribute('property')==='og:title'?seoText.title:seoText.description):original);
 if(originalSchema&&schemaEl){const structured=JSON.parse(JSON.stringify(originalSchema));const page=structured['@graph']?.find(x=>x['@type']==='CollectionPage');if(page){page.inLanguage=lang;page.name=pageTitle;page.description=seoText?seoText.description:meta.find(([el])=>el.getAttribute('name')==='description')?.[1]}schemaEl.textContent=JSON.stringify(structured);}
 }
-picker.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{const l=TPLanguage.set(b.dataset.lang);render(l)}));
+const pathForLanguage=lang=>{const path=location.pathname.replace(/^\/(?:vi|zh)(?=\/|$)/,'');const suffix=path==='/index.html'?'/':(path||'/');return lang==='en'?suffix:'/'+lang+(suffix==='/'?'/':suffix)};
+picker.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{const lang=b.dataset.lang,target=pathForLanguage(lang);if(location.pathname!==target)location.assign(target);else render(lang)}));
 window.addEventListener('tp:language',e=>render(e.detail));render(TPLanguage.get());
 })();
