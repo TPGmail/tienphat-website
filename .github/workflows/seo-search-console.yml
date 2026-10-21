@@ -1,0 +1,52 @@
+name: TPP Technical SEO and Search Console
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.html'
+      - sitemap.xml
+      - scripts/seo_gsc.py
+      - .github/workflows/seo-search-console.yml
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+jobs:
+  seo-audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/seo_gsc.py audit
+  google-search-console:
+    needs: seo-audit
+    if: "${{ vars.GSC_WIF_PROVIDER != '' && vars.GSC_SERVICE_ACCOUNT != '' }}"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - id: auth
+        uses: google-github-actions/auth@v3
+        with:
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/webmasters
+          workload_identity_provider: "${{ vars.GSC_WIF_PROVIDER }}"
+          service_account: "${{ vars.GSC_SERVICE_ACCOUNT }}"
+      - name: Submit sitemap on updates
+        if: "${{ github.event_name != 'schedule' }}"
+        env:
+          GSC_ACCESS_TOKEN: "${{ steps.auth.outputs.access_token }}"
+        run: python scripts/seo_gsc.py sync --submit
+      - name: Inspect Google indexing on daily schedule
+        if: "${{ github.event_name == 'schedule' }}"
+        env:
+          GSC_ACCESS_TOKEN: "${{ steps.auth.outputs.access_token }}"
+        run: python scripts/seo_gsc.py sync
