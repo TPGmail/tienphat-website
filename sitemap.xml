@@ -1,15 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.tienphat.org/</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://www.tienphat.org/vi/</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://www.tienphat.org/zh/</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://www.tienphat.org/da-pu-pho-thong.html</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://www.tienphat.org/vi/da-pu-pho-thong.html</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://www.tienphat.org/zh/da-pu-pho-thong.html</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://www.tienphat.org/da-pu-nubuck.html</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://www.tienphat.org/vi/da-pu-nubuck.html</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://www.tienphat.org/zh/da-pu-nubuck.html</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://www.tienphat.org/da-that.html</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://www.tienphat.org/vi/da-that.html</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://www.tienphat.org/zh/da-that.html</loc><lastmod>2026-10-21</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.tienphat.org/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tienphat.org/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.tienphat.org/vi/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tienphat.org/zh/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tienphat.org/" />
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.tienphat.org/vi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tienphat.org/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.tienphat.org/vi/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tienphat.org/zh/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tienphat.org/" />
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.tienphat.org/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tienphat.org/" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.tienphat.org/vi/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tienphat.org/zh/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tienphat.org/" />
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.tienphat.org/da-pu-pho-thong.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tienphat.org/da-pu-pho-thong.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.tienphat.org/vi/da-pu-pho-thong.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tienphat.org/zh/da-pu-pho-thong.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tienphat.org/da-pu-pho-thong.html" />
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.tienphat.org/vi/da-pu-pho-thong.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tienphat.org/da-pu-pho-thong.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.tienphat.org/vi/da-pu-pho-thong.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tienphat.org/zh/da-pu-pho-thong.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tienphat.org/da-pu-pho-thong.html" />
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.tienphat.org/zh/da-pu-pho-thong.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tienphat.org/da-pu-pho-thong.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.tienphat.org/vi/da-pu-pho-thong.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tienphat.org/zh/da-pu-pho-thong.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tienphat.org/da-pu-pho-thong.html" />
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.tienphat.org/da-pu-nubuck.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tienphat.org/da-pu-nubuck.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.tienphat.org/vi/da-pu-nubuck.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tienphat.org/zh/da-pu-nubuck.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tienphat.org/da-pu-nubuck.html" />
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.tienphat.org/vi/da-pu-nubuck.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tienphat.org/da-pu-nubuck.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.tienphat.org/vi/da-pu-nubuck.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tienphat.org/zh/da-pu-nubuck.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tienphat.org/da-pu-nubuck.html" />
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.tienphat.org/zh/da-pu-nubuck.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tienphat.org/da-pu-nubuck.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.tienphat.org/vi/da-pu-nubuck.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tienphat.org/zh/da-pu-nubuck.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tienphat.org/da-pu-nubuck.html" />
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.tienphat.org/da-that.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tienphat.org/da-that.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.tienphat.org/vi/da-that.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tienphat.org/zh/da-that.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tienphat.org/da-that.html" />
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.tienphat.org/vi/da-that.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tienphat.org/da-that.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.tienphat.org/vi/da-that.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tienphat.org/zh/da-that.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tienphat.org/da-that.html" />
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.tienphat.org/zh/da-that.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tienphat.org/da-that.html" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://www.tienphat.org/vi/da-that.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tienphat.org/zh/da-that.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tienphat.org/da-that.html" />
+    <lastmod>2026-10-21</lastmod>
+  </url>
 </urlset>
