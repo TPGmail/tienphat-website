@@ -205,6 +205,12 @@
       </div>
     </section>
 
+    <section class="rfq-guide" aria-labelledby="rfq-guide-title">
+      <p class="section-kicker">THU MUA VẬT LIỆU B2B</p>
+      <h2 id="rfq-guide-title">Từ chọn mã mẫu đến yêu cầu báo giá rõ ràng</h2>
+      <p class="rfq-guide-intro">Hãy mô tả ứng dụng và yêu cầu của dự án. Ảnh mẫu giúp nhận diện lựa chọn; tính phù hợp, chỉ tiêu kỹ thuật và khả năng cung ứng cần xác nhận theo từng mã trước khi đặt hàng.</p>
+      <ol class="rfq-steps"><li><h3>Chọn nhóm vật liệu</h3><p>Xem da PU phổ thông, PU Nubuck hoặc da thật và ghi lại mã mẫu cần hỏi.</p></li><li><h3>Mô tả nhu cầu</h3><p>Cung cấp ứng dụng, số lượng dự kiến, kích thước hoặc yêu cầu gia công nếu đã có.</p></li><li><h3>Xác nhận trước khi đặt</h3><p>Đề nghị cung cấp mẫu thực tế, quy cách theo mã, tình trạng hàng và điều kiện báo giá.</p></li></ol>
+    </section>
     <section class="contact" id="contact">
       <div class="contact-copy">
         <p class="section-kicker" data-t="contactKicker">LIÊN HỆ</p>
@@ -224,10 +230,20 @@
         <input type="hidden" name="access_key" value="09fbe38b-eef8-4adc-88e8-13fc5cd4dac2">
         <input type="hidden" name="subject" value="New enquiry — Tien Phat Materials">
         <input type="hidden" name="from_name" value="Tien Phat Materials Website">
+        <input type="hidden" name="source_page" value="">
+        <p class="rfq-selected" id="rfq-selected" aria-live="polite" hidden></p>
         <input class="botcheck" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off">
-        <label><span data-t="name">Họ và tên</span><input name="name" required autocomplete="name"></label>
-        <label><span data-t="company">Công ty</span><input name="company" autocomplete="organization"></label>
-        <label><span data-t="phone">Điện thoại / Zalo</span><input name="phone" required autocomplete="tel"></label>
+        <div class="rfq-fields">
+          <label><span data-t="name">Họ và tên</span><input name="name" required autocomplete="name"></label>
+          <label><span data-t="company">Công ty</span><input name="company" autocomplete="organization"></label>
+          <label><span>Email</span><input name="email" type="email" autocomplete="email"></label>
+          <label><span data-t="phone">Điện thoại / Zalo</span><input name="phone" required autocomplete="tel"></label>
+          <label><span>Nhóm vật liệu</span><select name="material_category" id="rfq-material"><option value="">Chọn vật liệu</option><option value="pu">Da PU phổ thông</option><option value="nubuck">Da PU Nubuck</option><option value="leather">Da thật</option><option value="other">Chưa xác định / khác</option></select></label>
+          <label><span>Mã mẫu (nếu có)</span><input name="sample_code" id="rfq-sample" maxlength="100" placeholder="VD: UM-76, SU2312228 hoặc LEA2508274"></label>
+          <label><span>Ứng dụng dự kiến</span><input name="intended_application" maxlength="180" placeholder="VD: bọc sofa, ghế văn phòng, túi xách"></label>
+          <label><span>Số lượng dự kiến / đơn vị</span><input name="estimated_quantity" maxlength="120" placeholder="VD: 200 m, 10 cuộn hoặc chưa xác định"></label>
+        </div>
+        <label><span>Yêu cầu quy cách (không bắt buộc)</span><textarea name="specification_requirements" rows="2" placeholder="Bề mặt, lớp nền, độ dày, màu, yêu cầu thử nghiệm nếu đã biết"></textarea></label>
         <label><span data-t="need">Nhu cầu của bạn</span><textarea name="message" rows="4" required></textarea></label>
         <button class="btn primary" type="submit" data-t="send">Gửi yêu cầu</button>
         <p class="form-status" data-t="response" aria-live="polite">Bộ phận kinh doanh sẽ phản hồi trong thời gian sớm nhất.</p>
@@ -247,5 +263,6 @@
   <script src="/assets/language.js"></script>
   <script src="/assets/site.js?v=d9a1ed401a26"></script>
 <script src="/assets/contact.js"></script>
+<script src="/assets/rfq.js?v=20261108"></script>
 </body>
 </html>
