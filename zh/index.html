@@ -205,6 +205,12 @@
       </div>
     </section>
 
+    <section class="rfq-guide" aria-labelledby="rfq-guide-title">
+      <p class="section-kicker">B2B 材料采购</p>
+      <h2 id="rfq-guide-title">从选择样品到明确询价</h2>
+      <p class="rfq-guide-intro">请说明预期用途与项目要求。样品图片仅用于识别选项；订购前须按具体代码确认适用性、性能及供货情况。</p>
+      <ol class="rfq-steps"><li><h3>选择材料</h3><p>比较普通 PU 革、PU 磨砂革和真皮，并记录样品代码。</p></li><li><h3>说明项目</h3><p>提供用途、预计数量、尺寸或加工要求（如已确定）。</p></li><li><h3>下单前确认</h3><p>索取实物样品、该代码的技术规格，并确认供货情况及报价条件。</p></li></ol>
+    </section>
     <section class="contact" id="contact">
       <div class="contact-copy">
         <p class="section-kicker" data-t="contactKicker">联系我们</p>
@@ -224,10 +230,20 @@
         <input type="hidden" name="access_key" value="09fbe38b-eef8-4adc-88e8-13fc5cd4dac2">
         <input type="hidden" name="subject" value="New enquiry — Tien Phat Materials">
         <input type="hidden" name="from_name" value="Tien Phat Materials Website">
+        <input type="hidden" name="source_page" value="">
+        <p class="rfq-selected" id="rfq-selected" aria-live="polite" hidden></p>
         <input class="botcheck" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off">
-        <label><span data-t="name">姓名</span><input name="name" required autocomplete="name"></label>
-        <label><span data-t="company">公司</span><input name="company" autocomplete="organization"></label>
-        <label><span data-t="phone">电话 / Zalo</span><input name="phone" required autocomplete="tel"></label>
+        <div class="rfq-fields">
+          <label><span data-t="name">姓名</span><input name="name" required autocomplete="name"></label>
+          <label><span data-t="company">公司</span><input name="company" autocomplete="organization"></label>
+          <label><span>电子邮箱</span><input name="email" type="email" autocomplete="email"></label>
+          <label><span data-t="phone">电话 / Zalo</span><input name="phone" required autocomplete="tel"></label>
+          <label><span>材料类别</span><select name="material_category" id="rfq-material"><option value="">选择材料</option><option value="pu">普通 PU 革</option><option value="nubuck">PU 磨砂革</option><option value="leather">真皮</option><option value="other">未确定 / 其他</option></select></label>
+          <label><span>样品代码（如有）</span><input name="sample_code" id="rfq-sample" maxlength="100" placeholder="例如 UM-76、SU2312228 或 LEA2508274"></label>
+          <label><span>预期用途</span><input name="intended_application" maxlength="180" placeholder="例如沙发包覆、办公椅、箱包"></label>
+          <label><span>预计数量 / 单位</span><input name="estimated_quantity" maxlength="120" placeholder="例如 200 米、10 卷或未确定"></label>
+        </div>
+        <label><span>规格要求（选填）</span><textarea name="specification_requirements" rows="2" placeholder="表面、底布、厚度、颜色、测试需求（如已确定）"></textarea></label>
         <label><span data-t="need">您的需求</span><textarea name="message" rows="4" required></textarea></label>
         <button class="btn primary" type="submit" data-t="send">提交咨询</button>
         <p class="form-status" data-t="response" aria-live="polite">我们的销售团队会尽快回复。</p>
@@ -247,5 +263,6 @@
   <script src="/assets/language.js"></script>
   <script src="/assets/site.js?v=d9a1ed401a26"></script>
 <script src="/assets/contact.js"></script>
+<script src="/assets/rfq.js?v=20261108"></script>
 </body>
 </html>

@@ -45,3 +45,13 @@
   .contact-fabs a:focus-visible{outline-color:#fff}
   ::selection{background:#ffba91;color:#171715}
 }
+
+
+/* RFQ contrast in device dark mode */
+@media(prefers-color-scheme:dark){
+ .buyer-guide{background:var(--cream);border-color:#ffba91;color:var(--ink)}
+ .rfq-guide{background:var(--cream)}
+ .contact-form select{color:var(--ink);border-color:#91a394}
+ .contact-form select option{background:#1c2720;color:#f2efe7}
+ .contact-form .rfq-selected{color:#8ae3ad}
+}

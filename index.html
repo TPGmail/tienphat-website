@@ -205,6 +205,12 @@
       </div>
     </section>
 
+    <section class="rfq-guide" aria-labelledby="rfq-guide-title">
+      <p class="section-kicker">B2B MATERIAL SOURCING</p>
+      <h2 id="rfq-guide-title">From sample selection to a clearer quotation</h2>
+      <p class="rfq-guide-intro">Share the intended application and project requirements. Sample photographs identify options, but suitability, performance and availability must be checked for each code before ordering.</p>
+      <ol class="rfq-steps"><li><h3>Choose a material</h3><p>Compare standard PU leather, PU Nubuck or genuine leather and record the sample code.</p></li><li><h3>Describe your project</h3><p>Provide the intended use, estimated quantity, dimensions or processing requirements if known.</p></li><li><h3>Confirm before ordering</h3><p>Ask about the physical sample, code-specific specifications, availability and quotation terms.</p></li></ol>
+    </section>
     <section class="contact" id="contact">
       <div class="contact-copy">
         <p class="section-kicker" data-t="contactKicker">CONTACT</p>
@@ -224,10 +230,20 @@
         <input type="hidden" name="access_key" value="09fbe38b-eef8-4adc-88e8-13fc5cd4dac2">
         <input type="hidden" name="subject" value="New enquiry — Tien Phat Materials">
         <input type="hidden" name="from_name" value="Tien Phat Materials Website">
+        <input type="hidden" name="source_page" value="">
+        <p class="rfq-selected" id="rfq-selected" aria-live="polite" hidden></p>
         <input class="botcheck" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off">
-        <label><span data-t="name">Full name</span><input name="name" required autocomplete="name"></label>
-        <label><span data-t="company">Company</span><input name="company" autocomplete="organization"></label>
-        <label><span data-t="phone">Phone / Zalo</span><input name="phone" required autocomplete="tel"></label>
+        <div class="rfq-fields">
+          <label><span data-t="name">Full name</span><input name="name" required autocomplete="name"></label>
+          <label><span data-t="company">Company</span><input name="company" autocomplete="organization"></label>
+          <label><span>Email</span><input name="email" type="email" autocomplete="email"></label>
+          <label><span data-t="phone">Phone / Zalo</span><input name="phone" required autocomplete="tel"></label>
+          <label><span>Material category</span><select name="material_category" id="rfq-material"><option value="">Select a material</option><option value="pu">Standard PU leather</option><option value="nubuck">PU Nubuck</option><option value="leather">Genuine leather</option><option value="other">Not sure / other</option></select></label>
+          <label><span>Sample code (if known)</span><input name="sample_code" id="rfq-sample" maxlength="100" placeholder="e.g. UM-76, SU2312228 or LEA2508274"></label>
+          <label><span>Intended application</span><input name="intended_application" maxlength="180" placeholder="e.g. sofa upholstery, office seating, bags"></label>
+          <label><span>Estimated quantity / unit</span><input name="estimated_quantity" maxlength="120" placeholder="e.g. 200 m, 10 rolls, or undecided"></label>
+        </div>
+        <label><span>Specification requirements (optional)</span><textarea name="specification_requirements" rows="2" placeholder="Finish, backing, thickness, preferred colour, testing needs; only if known"></textarea></label>
         <label><span data-t="need">Your requirements</span><textarea name="message" rows="4" required></textarea></label>
         <button class="btn primary" type="submit" data-t="send">Send enquiry</button>
         <p class="form-status" data-t="response" aria-live="polite">Our sales team will respond as soon as possible.</p>
@@ -247,5 +263,6 @@
   <script src="/assets/language.js"></script>
   <script src="/assets/site.js?v=d9a1ed401a26"></script>
 <script src="/assets/contact.js"></script>
+<script src="/assets/rfq.js?v=20261108"></script>
 </body>
 </html>

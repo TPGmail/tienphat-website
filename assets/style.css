@@ -89,3 +89,25 @@
 .contact-fabs a:focus-visible{outline:3px solid #fff;outline-offset:3px}
 .catalog-footer{padding-bottom:150px}
 @media(max-width:620px){.contact-fabs{right:16px}}
+
+
+/* B2B buyer guidance and structured RFQ form */
+.rfq-guide{padding:76px var(--pad);background:var(--cream)}
+.rfq-guide h2{font-size:clamp(26px,3.2vw,43px);line-height:1.2;margin:10px 0 14px;max-width:780px}
+.rfq-guide-intro{max-width:900px;line-height:1.65}
+.rfq-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;list-style:none;padding:0;margin:30px 0 0;counter-reset:rfq}
+.rfq-steps li{counter-increment:rfq;border-top:2px solid var(--orange);padding-top:18px}
+.rfq-steps li::before{content:"0" counter(rfq);font-weight:700;color:var(--orange);font-size:12px;letter-spacing:.1em}
+.rfq-steps h3{margin:8px 0;font-size:17px}.rfq-steps p{margin:0;line-height:1.6;font-size:14px}
+.rfq-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.rfq-fields label{min-width:0}
+.contact-form select{width:100%;min-height:42px;border:0;border-bottom:1px solid #888;background:transparent;color:inherit;font:inherit;padding:9px 0;border-radius:0}
+.contact-form input{min-width:0;width:100%}
+.contact-form textarea{width:100%;font:inherit}
+.contact-form select:focus-visible{outline:2px solid var(--orange);outline-offset:3px}
+.contact-form select option{background:#fff;color:#171715}
+.contact-form .rfq-selected{font-size:13px;font-weight:600;color:#28543b;margin:0}
+.buyer-guide{margin:22px 0;padding:18px 22px;border-left:3px solid var(--orange);background:var(--cream)}
+.buyer-guide h2{font-size:19px;line-height:1.35;margin:0 0 9px}
+.buyer-guide p{line-height:1.6;margin:8px 0;font-size:14px}
+@media(max-width:700px){.rfq-steps{grid-template-columns:1fr;gap:20px}.rfq-fields{grid-template-columns:1fr}.rfq-guide{padding:56px var(--pad)}.buyer-guide{padding:16px}}
