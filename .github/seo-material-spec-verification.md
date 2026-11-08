@@ -4,6 +4,19 @@ Internal SEO QA, 2026-11-08. Extracted from currently committed catalog pages.
 
 Do not assign category-level dimensions, backing, certifications, performance or country of origin to an individual sample code unless a product-specific, verifiable source confirms it.
 
+## Verified product code equivalence
+
+The website prefix **LEA** and the source Excel prefix **LE** identify the **same genuine-leather products**, per the user's confirmation on 2026-11-08. Example: `LEA2508273` (web) = `LE2508273` (file). All 20 LEA catalog codes match the corresponding LE codes in `tpp spec.xlsx`, sheet `Prod`. This establishes code identity, **not the completeness or unit of each technical field**.
+
+Product-specific source values now traced:
+
+| Website code | Excel code | Colour in Excel | `Dày/Dài` source text | Surface `Vân` | Unit `ĐVT` | Source reference |
+|---|---|---|---|---|---|---|
+| LEA2508273 | LE2508273 | Đen | 1.2-1.4 | Nappa | SF | `Prod!B306:K306` |
+| LEA2508274 | LE2508274 | Đen | 1.6-1.8 | Tumble | SF | `Prod!B307:K307` |
+
+Do not infer `mm` for `Dày/Dài` without confirming the unit. The remaining 18 matched LEA codes do not gain missing physical specifications merely from the mapping. Do not publish certification, origin or unverified technical data.
+
 ## Source codes and status
 
 | Category | Sample code | Source HTML | Technical specifications | Source document |
@@ -48,26 +61,26 @@ Do not assign category-level dimensions, backing, certifications, performance or
 | PU Nubuck | SU2312203 | da-pu-nubuck.html | Pending | Not linked |
 | PU Nubuck | SU2312204 | da-pu-nubuck.html | Pending | Not linked |
 | PU Nubuck | SU2312205 | da-pu-nubuck.html | Pending | Not linked |
-| Genuine leather | LEA2508274 | da-that.html | Pending | Not linked |
-| Genuine leather | LEA2508273 | da-that.html | Pending | Not linked |
-| Genuine leather | LEA2507266 | da-that.html | Pending | Not linked |
-| Genuine leather | LEA2507267 | da-that.html | Pending | Not linked |
-| Genuine leather | LEA2507268 | da-that.html | Pending | Not linked |
-| Genuine leather | LEA2507269 | da-that.html | Pending | Not linked |
-| Genuine leather | LEA2507270 | da-that.html | Pending | Not linked |
-| Genuine leather | LEA2507271 | da-that.html | Pending | Not linked |
-| Genuine leather | LEA2507244 | da-that.html | Pending | Not linked |
-| Genuine leather | LEA2507245 | da-that.html | Pending | Not linked |
-| Genuine leather | LEA2507246 | da-that.html | Pending | Not linked |
-| Genuine leather | LEA2507247 | da-that.html | Pending | Not linked |
-| Genuine leather | LEA2507248 | da-that.html | Pending | Not linked |
-| Genuine leather | LEA2507249 | da-that.html | Pending | Not linked |
-| Genuine leather | LEA2507250 | da-that.html | Pending | Not linked |
-| Genuine leather | LEA2507251 | da-that.html | Pending | Not linked |
-| Genuine leather | LEA2507252 | da-that.html | Pending | Not linked |
-| Genuine leather | LEA2507253 | da-that.html | Pending | Not linked |
-| Genuine leather | LEA2507254 | da-that.html | Pending | Not linked |
-| Genuine leather | LEA2507255 | da-that.html | Pending | Not linked |
+| Genuine leather | LEA2508274 | da-that.html | Excel: black; Tumble; Dày/Dài 1.6-1.8 (unit unconfirmed) | tpp spec.xlsx / Prod / LE2508274 |
+| Genuine leather | LEA2508273 | da-that.html | Excel: black; Nappa; Dày/Dài 1.2-1.4 (unit unconfirmed) | tpp spec.xlsx / Prod / LE2508273 |
+| Genuine leather | LEA2507266 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507266 |
+| Genuine leather | LEA2507267 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507267 |
+| Genuine leather | LEA2507268 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507268 |
+| Genuine leather | LEA2507269 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507269 |
+| Genuine leather | LEA2507270 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507270 |
+| Genuine leather | LEA2507271 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507271 |
+| Genuine leather | LEA2507244 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507244 |
+| Genuine leather | LEA2507245 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507245 |
+| Genuine leather | LEA2507246 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507246 |
+| Genuine leather | LEA2507247 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507247 |
+| Genuine leather | LEA2507248 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507248 |
+| Genuine leather | LEA2507249 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507249 |
+| Genuine leather | LEA2507250 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507250 |
+| Genuine leather | LEA2507251 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507251 |
+| Genuine leather | LEA2507252 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507252 |
+| Genuine leather | LEA2507253 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507253 |
+| Genuine leather | LEA2507254 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507254 |
+| Genuine leather | LEA2507255 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507255 |
 
 ## Required evidence before publishing
 
