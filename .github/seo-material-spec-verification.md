@@ -12,10 +12,10 @@ Product-specific source values now traced:
 
 | Website code | Excel code | Colour in Excel | `Dày/Dài` source text | Surface `Vân` | Unit `ĐVT` | Source reference |
 |---|---|---|---|---|---|---|
-| LEA2508273 | LE2508273 | Đen | 1.2-1.4 | Nappa | SF | `Prod!B306:K306` |
-| LEA2508274 | LE2508274 | Đen | 1.6-1.8 | Tumble | SF | `Prod!B307:K307` |
+| LEA2508273 | LE2508273 | Đen | 1.2–1.4 mm | Nappa | SF (square feet) | `Prod!B306:K306` |
+| LEA2508274 | LE2508274 | Đen | 1.6–1.8 mm | Tumble | SF (square feet) | `Prod!B307:K307` |
 
-The user has explicitly confirmed the thickness value **1.2–1.4** for `LEA2508273` (`LE2508273`). **Unit has not been explicitly confirmed**. Do not infer `mm` for `Dày/Dài` without confirming the unit. The remaining 18 matched LEA codes do not gain missing physical specifications merely from the mapping. Do not publish certification, origin or unverified technical data.
+User-confirmed units (2026-11-08): **thickness in mm**, while **SF = square feet** is the area/supply unit (`ĐVT`). These are distinct measures. `LEA2508273`: black, Nappa, 1.2–1.4 mm, unit SF. `LEA2508274`: black, Tumble, 1.6–1.8 mm, unit SF. Both thickness ranges are Excel source values, now understood as millimetres. SF does not establish hide area or usable area. Other LEA codes do not inherit these specs. No certifications or code-specific performance claims have been inferred.
 
 ## Source codes and status
 
@@ -61,8 +61,8 @@ The user has explicitly confirmed the thickness value **1.2–1.4** for `LEA2508
 | PU Nubuck | SU2312203 | da-pu-nubuck.html | Pending | Not linked |
 | PU Nubuck | SU2312204 | da-pu-nubuck.html | Pending | Not linked |
 | PU Nubuck | SU2312205 | da-pu-nubuck.html | Pending | Not linked |
-| Genuine leather | LEA2508274 | da-that.html | Excel: black; Tumble; Dày/Dài 1.6-1.8 (unit unconfirmed) | tpp spec.xlsx / Prod / LE2508274 |
-| Genuine leather | LEA2508273 | da-that.html | Colour: black; surface: Nappa (Excel). **Thickness 1.2–1.4 confirmed by user on 2026-11-08; unit remains unconfirmed** | tpp spec.xlsx / Prod / LE2508273 + user confirmation |
+| Genuine leather | LEA2508274 | da-that.html | Excel: black; Tumble; thickness 1.6–1.8 mm; supply unit SF | tpp spec.xlsx / Prod / LE2508274 |
+| Genuine leather | LEA2508273 | da-that.html | Colour: black; Nappa; thickness 1.2–1.4 mm; supply unit SF (confirmed) | tpp spec.xlsx / Prod / LE2508273 + user confirmation |
 | Genuine leather | LEA2507266 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507266 |
 | Genuine leather | LEA2507267 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507267 |
 | Genuine leather | LEA2507268 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507268 |

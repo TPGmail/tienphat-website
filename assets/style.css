@@ -111,3 +111,9 @@
 .buyer-guide h2{font-size:19px;line-height:1.35;margin:0 0 9px}
 .buyer-guide p{line-height:1.6;margin:8px 0;font-size:14px}
 @media(max-width:700px){.rfq-steps{grid-template-columns:1fr;gap:20px}.rfq-fields{grid-template-columns:1fr}.rfq-guide{padding:56px var(--pad)}.buyer-guide{padding:16px}}
+
+/* Verified, code-specific leather attributes (not category-wide claims) */
+.sample-verified-spec{list-style:none;margin:10px 0 14px;padding:9px 0;border-top:1px solid rgba(115,115,115,.25);border-bottom:1px solid rgba(115,115,115,.25)}
+.sample-verified-spec li{display:flex;align-items:baseline;justify-content:space-between;gap:10px;font-size:12px;line-height:1.5;margin:5px 0}
+.sample-verified-spec li span{opacity:.75}
+.sample-verified-spec li strong{text-align:right;font-weight:600;overflow-wrap:anywhere}
