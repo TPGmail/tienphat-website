@@ -15,7 +15,7 @@ Product-specific source values now traced:
 | LEA2508273 | LE2508273 | Đen | 1.2-1.4 | Nappa | SF | `Prod!B306:K306` |
 | LEA2508274 | LE2508274 | Đen | 1.6-1.8 | Tumble | SF | `Prod!B307:K307` |
 
-Do not infer `mm` for `Dày/Dài` without confirming the unit. The remaining 18 matched LEA codes do not gain missing physical specifications merely from the mapping. Do not publish certification, origin or unverified technical data.
+The user has explicitly confirmed the thickness value **1.2–1.4** for `LEA2508273` (`LE2508273`). **Unit has not been explicitly confirmed**. Do not infer `mm` for `Dày/Dài` without confirming the unit. The remaining 18 matched LEA codes do not gain missing physical specifications merely from the mapping. Do not publish certification, origin or unverified technical data.
 
 ## Source codes and status
 
@@ -62,7 +62,7 @@ Do not infer `mm` for `Dày/Dài` without confirming the unit. The remaining 18 
 | PU Nubuck | SU2312204 | da-pu-nubuck.html | Pending | Not linked |
 | PU Nubuck | SU2312205 | da-pu-nubuck.html | Pending | Not linked |
 | Genuine leather | LEA2508274 | da-that.html | Excel: black; Tumble; Dày/Dài 1.6-1.8 (unit unconfirmed) | tpp spec.xlsx / Prod / LE2508274 |
-| Genuine leather | LEA2508273 | da-that.html | Excel: black; Nappa; Dày/Dài 1.2-1.4 (unit unconfirmed) | tpp spec.xlsx / Prod / LE2508273 |
+| Genuine leather | LEA2508273 | da-that.html | Colour: black; surface: Nappa (Excel). **Thickness 1.2–1.4 confirmed by user on 2026-11-08; unit remains unconfirmed** | tpp spec.xlsx / Prod / LE2508273 + user confirmation |
 | Genuine leather | LEA2507266 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507266 |
 | Genuine leather | LEA2507267 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507267 |
 | Genuine leather | LEA2507268 | da-that.html | Code identity confirmed; technical specs pending | tpp spec.xlsx / Prod / LE2507268 |
